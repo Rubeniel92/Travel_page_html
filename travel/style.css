@@ -1,0 +1,105 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #022c43;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+
+section {
+    padding: 40px 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destinos-grid, .paquetes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.destino, .paquete {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.destino img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.paquete ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #115173; /* Verde */
+    color: #fff; /* Blanco */
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #fff; /* Borde blanco */
+    transition: background-color 0.3s ease; /* Transición de color */
+}
+
+.btn:hover { /* Cuando se pasa el cursor sobre el botón */
+    background-color: #053f5e; /* Verde más oscuro */
+}
+.btn_u {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #053f5e; /* Verde */
+    color: #fff; /* Blanco */
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #fff; /* Borde blanco */
+    transition: background-color 0.3s ease; /* Transición de color */
+}
+
+.btn_u:hover { /* Cuando se pasa el cursor sobre el botón */
+    background-color: #053f5e; /* Verde más oscuro */
+}

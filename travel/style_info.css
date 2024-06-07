@@ -1,0 +1,88 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    gap: 40px;
+}
+
+header {
+    background-color: #022c43;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el formulario de búsqueda */
+
+#busca-voos {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 110px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #053f5e; /* Verde */
+    color: #fff; /* Blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #053f5e; /* Verde más oscuro */
+}
+
+/* Estilos para los resultados de los vuelos */
+
+#resultados-voos {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.voos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.voo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voos dos Sonhos</title>
+    <link rel="stylesheet" href="style_info.css">
+</head>
+<body>
+    <header>
+        <h1>Voos dos Sonhos</h1>
+    </header>
+
+    <main>
+        <section id="busca-voos">
+            <h2>Encontre o voo perfeito</h2>
+            <form>
+                <label for="origem">Origem:</label>
+                <input type="text" id="origem" name="origem">
+
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" name="destino">
+
+                <label for="dataIda">Data de ida:</label>
+                <input type="date" id="dataIda" name="dataIda">
+
+                <label for="dataVolta">Data de volta (opcional):</label>
+                <input type="date" id="dataVolta" name="dataVolta">
+
+                <button type="submit">Buscar voos</button>
+            </form>
+        </section>
+
+        <section id="resultados-voos">
+            <h2>Resultados da pesquisa</h2>
+            <div class="voos-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Voos dos Sonhos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
